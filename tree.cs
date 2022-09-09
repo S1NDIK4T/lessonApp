@@ -43,8 +43,8 @@ namespace lessonapp
 
         public Tree(double a, string b)
         {
-            type = b;
-            age = a;
+            Type = b;
+            Age = a;
         }
 
         public abstract void Grow();

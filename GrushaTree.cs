@@ -8,7 +8,7 @@ namespace lessonapp
 {
     public class GrushaTree : Tree
     {
-        public GrushaTree(int a, string b) : base(a, b) { }
+        public GrushaTree(double a, string b) : base(a, b) { }
 
         public override void Grow()
         {

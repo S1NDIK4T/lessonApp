@@ -6,11 +6,11 @@ namespace lessonapp
     {
         static void Main(string[] args)
         {
-            Tree a = new Appletree(1, "sda");
+            Tree apple = new Appletree(1, "sda");
             Tree grusha = new GrushaTree(-12, "Груща");
-            Console.WriteLine(a.Age);
-            a.Grow();
-            Console.WriteLine(a.Age);
+            Console.WriteLine(apple.Age);
+            apple.Grow();
+            Console.WriteLine(apple.Age);
             Console.WriteLine(grusha.Age);
             grusha.Grow();
             Console.WriteLine(grusha.Age);
