@@ -10,9 +10,6 @@ namespace lessonapp
     {
         public GrushaTree(int a, string b) : base(a, b) { }
 
-        public override void Grow()
-        {
-            Age += 1;
-        }
+        
     }
 }
