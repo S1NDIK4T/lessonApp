@@ -10,7 +10,7 @@ namespace lessonapp
     {
         private double age;
         private string type;
-        
+        #region TypeProperty 
         public string Type 
         {
             get 
@@ -22,8 +22,8 @@ namespace lessonapp
                 type = value;
             }
         }
-
-
+        #endregion
+        #region AgeProperty
         public double Age 
         {
             get 
@@ -40,7 +40,7 @@ namespace lessonapp
                 else age = value;
             }
         }
-
+        #endregion
         public Tree(double a, string b)
         {
             Type = b;
