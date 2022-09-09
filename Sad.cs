@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace lessonapp
 {
-    class Sad
+    public class Sad
     {
-
+        public Tree[] trees {
+            get => trees;
+            protected set => trees = value; }
+        public Sad()
+        {
+            
+        }
     }
 }
