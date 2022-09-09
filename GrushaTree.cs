@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lessonapp
 {
-    public class Appletree : Tree
+    public class GrushaTree : Tree
     {
-        public Appletree(int a, string b) : base(a,b) { }
+        public GrushaTree(int a, string b) : base(a, b) { }
 
         public void Grow()
         {

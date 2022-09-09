@@ -31,7 +31,7 @@ namespace lessonapp
                 return age;
             }
 
-            private set 
+            protected set 
             {
                 if (value < 0)
                 { 
