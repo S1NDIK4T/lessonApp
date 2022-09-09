@@ -6,7 +6,7 @@ namespace lessonapp
     {
         static void Main(string[] args)
         {
-            
+            Appletree a = new Appletree(1, "sda");
 
         }
     }

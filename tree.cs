@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lessonapp
 {
-    public class Tree
+    public abstract class Tree
     {
-        private int age;
+        private double age;
         private string type;
         
         public string Type 
@@ -24,7 +24,7 @@ namespace lessonapp
         }
 
 
-        public int Age 
+        public double Age 
         {
             get 
             {
@@ -41,17 +41,14 @@ namespace lessonapp
             }
         }
 
-        public Tree(int a, string b)
+        public Tree(double a, string b)
         {
             type = b;
             age = a;
         }
 
-        public virtual void Grow() 
-        {
-            age += 2;
-
-        }
+        public abstract void Grow();
+      
 
     }
 }

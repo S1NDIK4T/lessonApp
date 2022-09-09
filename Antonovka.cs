@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace lessonapp
 {
-    public class GrushaTree : Tree
+    class Antonovka : Appletree
     {
-        public GrushaTree(int a, string b) : base(a, b) { }
 
-        public override void Grow()
+        public Antonovka(double a, string b) : base(a, b) { }
+
+        public new void Grow()
         {
-            Age += 2;
+            Age *= 1.5;
         }
     }
 }
+
