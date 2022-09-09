@@ -9,5 +9,10 @@ namespace lessonapp
     public class Appletree : Tree
     {
         public Appletree(int a, string b) : base(a,b) { }
+
+        public void Age()
+        {
+            age += 1;
+        }
     }
 }
