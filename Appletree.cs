@@ -10,7 +10,7 @@ namespace lessonapp
     {
         public Appletree(int a, string b) : base(a,b) { }
 
-        public void Grow()
+        public override void Grow()
         {
             Age += 1;
         }

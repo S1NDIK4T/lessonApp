@@ -47,7 +47,7 @@ namespace lessonapp
             age = a;
         }
 
-        public void Grow() 
+        public virtual void Grow() 
         {
             age += 2;
 
